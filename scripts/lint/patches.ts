@@ -122,4 +122,10 @@ export const patches: Patch[] = [
     /https:\/\/catppuccin\.github\.io\/gitea\/theme-catppuccin/g,
     "https://evergarden.moe/gitea/theme-evergarden",
   ],
+
+  // LMAO
+  [
+    /@orange: mix\(@orange, @yellow\);/g,
+    "",
+  ],
 ];
