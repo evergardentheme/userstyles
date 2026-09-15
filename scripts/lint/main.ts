@@ -13,6 +13,7 @@ import { runStylelint } from "@/lint/stylelint.ts";
 import { applyPatches, patches } from "@/lint/patches.ts";
 import { getUserstylesData, getUserstylesFiles } from "@/utils.ts";
 import stylelintConfig from "../../.stylelintrc.js";
+import "@/lint/library.ts";
 
 const args = parseArgs(Deno.args, { boolean: ["fix"] });
 const userstyle = args._[0]?.toString().match(
