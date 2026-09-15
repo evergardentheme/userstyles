@@ -77,6 +77,7 @@ export const patches: Patch[] = [
   [/darkFlavor/g, "darkVariant"],
 
   [/#catppuccin/g, "#evergarden"],
+  [/@catppuccin/g, "@evergarden"],
 
   // == variants ==
   [/latte/g, "summer"],
